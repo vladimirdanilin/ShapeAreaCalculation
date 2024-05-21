@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShapeAreaCalculation
 {
-    internal class Circle : Shape
+    public class Circle : Shape
     {
         //Радиус круга
         public double Radius { get; }

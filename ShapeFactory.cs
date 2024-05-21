@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShapeAreaCalculation
 {
-    internal class ShapeFactory
+    public class ShapeFactory
     {
         //Создает фигуру указанного типа с заданныит параметрами
         public static IShape AddShape(string typeOfShape, params double[] shapeParameters)

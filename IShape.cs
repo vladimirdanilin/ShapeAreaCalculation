@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShapeAreaCalculation
 {
-    internal interface IShape
+    public  interface IShape
     {
         //Метод, вычисляющий значение площади фигуры
         double CalculateArea(); 
